@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Videos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            margin: 20px 0;
+            color: #333;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 90%;
+            max-width: 800px;
+        }
+
+        .grid-item {
+            border: 2px solid #2f90d1;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        .grid-item img {
+            width: 100%;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .grid-item h2 {
+            margin: 10px 0 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Internal Videos</h1>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <a href="https://youtu.be/-AA-94tHbi4" target="_blank">
+                <img src="https://img.youtube.com/vi/-AA-94tHbi4/0.jpg" alt="Internal 1 Thumbnail">
+            </a>
+            <h2>Internal 1</h2>
+        </div>
+
+        <div class="grid-item">
+            <a href="https://youtu.be/rGcW51s-OOM" target="_blank">
+                <img src="https://img.youtube.com/vi/rGcW51s-OOM/0.jpg" alt="Internal 2 Thumbnail">
+            </a>
+            <h2>Internal 2</h2>
+        </div>
+    </div>
+</body>
+</html>
